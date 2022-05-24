@@ -1,0 +1,179 @@
+.pedido{
+    display: flex;
+    flex-direction: column;
+    position:center;
+    width: 55vw;
+    height: 80vh;
+    background: rgb(236, 222, 96);
+    margin:1px 6px;
+    /* word-break: break-all; */
+    border: 1px solid rgba(240, 222, 57, 0.96);
+    margin-left:60%;
+    margin-top: -17%;
+    border-radius: 10px;
+    padding: 14px;
+    color:rgb(53, 1, 1);
+    /* list-style:none; */
+  }
+  
+  .form-control{
+   
+        width: 35%;
+        height: 0,1em;
+        background: #EFF9FB;
+        margin-bottom: 0.5rem;
+        color:rgb(29, 71, 17);
+        border-radius: 4px;
+        border: 1px solid  #96e550;;
+        padding: .4rem;     
+  }
+
+ .carrito{
+        overflow-y: scroll;   
+        height:200px;          
+  }
+
+
+  .btnes{
+      
+      border-radius: 10px;
+      padding:5px;
+      background: #EFF9FB;
+      color:black;
+      font-weight:bold;
+      border: 1px solid black;
+      margin: 1px;
+  }
+
+  .btnes2{
+      
+    width: 7vw;
+    height: 5.6vh;
+    font-size: 1.1vw;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: "Baloo Bhai 2";
+    background-color: #f47b02;
+    border: none;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .Eliminar{
+        
+    width: 7vw;
+    height: 5.6vh;
+    font-size: 1.1vw;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: "Baloo Bhai 2";
+    background-color: #f01f1f;
+    border: none;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+  }  
+  
+
+  
+   table {
+    /* table-layout: fixed; */
+    width: 50vw;
+    height: 70vh;
+    /* width: 100%; */
+    border-collapse: collapse;
+    /* border: 3px solid purple; */
+
+  } 
+  
+  thead th:nth-child(1) {
+    width: 5%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 5%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 5%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 5%;
+  }
+  
+  th, td {
+    padding: 7px;
+  }
+  
+  
+  th {
+    letter-spacing: 1px;
+  }
+  
+  td {
+    letter-spacing: 5px;
+  }
+  
+  tbody td {
+     
+    text-align: center;
+  }
+  
+  tfoot th {
+    text-align: left;
+  }
+  
+  /* graphics */
+  
+  thead, tfoot {
+    /* background: url(leopardskin.jpg); */
+    color:  rgb(53, 1, 1);
+  }
+  
+  thead th, tfoot th, tfoot td {
+    background: rgba(240, 222, 57, 0.96);
+    border: 1px solid rgb(53, 1, 1);
+
+    /* text-shadow: 1px 1px 1px black; */
+  }
+  
+  tbody tr:nth-child(odd) {
+    
+    
+    background-color:  rgb(245, 213, 72)
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #e495e4;
+  }
+  .btn-btn-primary{
+    background: #1ea73e;
+    color:rgb(248, 248, 248);
+    padding: 7px;
+    text-align: center;
+    width: 15%;
+    margin-left:45% ;
+    position: center;
+    font-size: 17px;
+    font-weight:bold;
+    border:none;
+    border-radius: 5px;
+  }
+
+.datospadre{
+  display:flex;
+ 
+}
+.datos{
+  box-sizing: content-box;
+    position: relative;
+    margin-top: -70px;
+    margin-left:40% ;
+    margin-bottom:26px ;
+    list-style: none;
+    /* padding:30px; */
+}
+ /* .datos > li{
+ 
+  
+}  */

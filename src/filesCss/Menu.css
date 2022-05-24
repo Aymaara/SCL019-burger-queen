@@ -1,0 +1,106 @@
+
+.Menu {
+  text-align: start;
+ 
+}
+
+.MenuLogo {
+margin:1%
+}
+.Menu-logo {
+  margin: -18px -9px 0px -9px;
+  height: 20vmin;
+  border-radius: 1em;
+}
+
+.Menu-header {
+  background-color: #aa0022;
+  min-height: 10vh;
+  margin: 16px 6px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+ 
+}
+
+.Menu-header h1{
+  margin: -18px -9px 0px -9px;
+  color: white;
+}
+.btnSalir{
+  display:flex;
+  justify-items: flex-end;
+  margin-left: 30%
+
+}
+.btn-exit{
+  /* padding: 7px; */
+  text-align: center;
+  width: 7vw;
+  height: 5.6vh;
+  background: #96e550;
+  border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    /* border-bottom: 1px solid rgba(214, 10, 10, 0.274); */
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+    margin: 5px;
+    
+}
+
+a:link, a:visited, a:active{
+  text-decoration:none;
+}
+.btn-exit h3{
+  padding:4px;
+  font-size: 17px;
+  color:rgb(29, 71, 17);
+ 
+
+}
+
+.nav{
+  width: 32vw;
+  height: 37vh;
+
+}
+.nav1{
+  display:flex;
+  margin-left:10%;
+  margin-top: -6%;
+  width: 60vw;
+  height: 90vh;
+}
+
+.cartOrden{
+   width:100vw;
+   height: 70%;
+   display: flex;
+   position: relative;
+   list-style:none;
+   flex-wrap:wrap;
+}
+.caja{ 
+
+  margin:10px;
+
+  flex-direction: row;
+  flex-wrap:wrap;
+  width:20vw;
+  height:40%;
+  border:solid 10px  rgb(240, 162, 198);
+  text-align: left;
+  padding: 14px;
+  color:rgb(53, 1, 1);
+ 
+  /* line-height: 60px; */
+  background-color:  rgb(236, 222, 96);;
+
+}
+/* .cocina{
+  display:flex;
+} */
