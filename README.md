@@ -1,6 +1,6 @@
 # Burger Queen
 
-##App para enviar pedidos, desde el mesero a la cocina, sumando y agregando
+##App para enviar pedidos, desde la mesa a la cocina, sumando y agregando
 variedad y cantidad de productos. Desde la Cocina marca los pedidos Listos.
 Herramientas utilizadas: React, react-router-dom, Css, Firebase.
 https://burger-queen-aymara.netlify.app/
